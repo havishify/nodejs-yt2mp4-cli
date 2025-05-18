@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-yt2mp4-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo { \"main\": \"index.js\", \"output\": \"sea-prep.blob\", \"disableExperimentalSEAWarning\": true } > sea-config.json && node --experimental-sea-config sea-config.json && node -e \"require('fs').copyFileSync(process.execPath, 'hello.exe')\" && npx postject hello.exe NODE_SEA_BLOB sea-prep.blob --sentinel-fuse NODE_SEA_FUSE_fce680ab2cc467b6e072b8b5df1996b2 && del yt2mp4.exe && ren hello.exe yt2mp4.exe"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
