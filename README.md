@@ -7,6 +7,7 @@
 
 ## Requirements
 - OS : Windows
+- **Run in cmd NOT powershell!**
 - [PATH - ffmpeg.exe](https://github.com/BtbN/FFmpeg-Builds)
 - [PATH - yt-dlp.exe](https://github.com/yt-dlp/yt-dlp)
 
